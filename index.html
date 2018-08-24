@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white" style="transform: rotate(90deg)">|||</span>
+        </button>
+
+        <a class="navbar-brand text-white justify-content-center" href="#">
+            <img src="./img/vector.png" height="40" width="40" class="d-block align-top" alt="logo">
+            <!-- Vector -->
+        </a>
+        
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Goods</a>
+                </li>
+                <li class="nav-item dropdown">
+                        <a class="nav-link text-white" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <a class="dropdown-item" href="#">Courses</a>
+                            <a class="dropdown-item" href="#">Webinars</a>
+                            <a class="dropdown-item" href="#">Help</a>
+                        </div>
+                    </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0 text-white" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    
+
+
+    <div class="container">
+        <div class="row py-2"></div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-11">
+                <div id="slideshow" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow" data-slide-to="1"></li>
+                        <li data-target="#slideshow" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img class="d-block w-10" src="https://picsum.photos/500/200/?random" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-10" src="https://picsum.photos/501/200/?random" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-10" src="https://picsum.photos/502/200/?random" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slideshow" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row py-2"></div>
+    </div>
+
+    <div class="container-fluid my-2">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-11 text-secondary mr-lg-2">
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur 
+            </div>
+            <div class="col-lg-6 col-11 text-secondary">
+                    Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                    qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur 
+                </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-11 my-2">
+                <div class="card text-left">
+                    <img class="card-img-top" src="./img/me.jpg" alt="Card image">
+                    <div class="card-body bg-secondary">
+                        <h5 class="card-text text-white ">Mihail Adutskevich</h5>
+                        <p class="card-text text-white">My first card with the help of Bootstrap 4. Hello, Bootstrap 4!!!</p>
+                        <a href="#" class="btn btn-outline-light btn-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-11 my-2">
+                <div class="card">
+                    <img class="card-img" src="./img/me.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-text text-white">Mihail Adutskevich</h5>
+                        <p class="card-text text-white">My first card with the help of Bootstrap 4. Hello, Bootstrap 4!!!</p>
+                        <a href="#" class="btn btn-outline-light btn-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-11 my-2">
+                <div class="card text-left">
+                    <div class="card-body bg-secondary">
+                        <h5 class="card-text text-white ">Mihail Adutskevich</h5>
+                        <p class="card-text text-white">My first card with the help of Bootstrap 4. Hello, Bootstrap 4!!!</p>
+                        <a href="#" class="btn btn-outline-light btn-secondary">See Profile</a>
+                    </div>
+                    <img class="card-img-bottom" src="./img/me.jpg" alt="Card image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid my-2">
+        <div class="row justify-content-center">
+            <div class="col-10" style="overflow: hidden;">
+                <img src="./img/vector1.png" style="float: left;" alt="vector">
+                <img src="./img/vector1.png" style="float: right;" alt="vector">
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                qui officia deserunt mollit anim id est laborum.
+                <img src="./img/vector1.png" style="float: right;" alt="vector">
+                Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                qui officia deserunt mollit anim id est laborum.
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-auto mt-2">
+                <p>
+                    <button class="btn btn-light btn-outline-secondary" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+                        Some Info. Try it.
+                    </button>
+                </p>
+            </div>
+            <div class="col-auto mt-2">
+                <p>
+                    <button class="btn btn-light btn-outline-secondary" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+                        More Info. Try it also.
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="collapse" id="collapse1">
+                    <div class="card card-body">
+                        Oh, u are here. Welcom!!!
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                    <div class="collapse" id="collapse2">
+                        <div class="card card-body">
+                            Oh, u are also here. Welcom again!!!
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-8">
+                <form>
+                    <div class="form-group">
+                        <label for="textarea1">Please, leave a feedback here. It's very important for us:</label>
+                        <textarea class="form-control" id="textarea1" rows="3" placeholder="Write smth"> 
+                        </textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <button type="submit" class="btn btn-secondary btn-outline-secondary">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer font-small blue pt-4">
+
+            <div class="container-fluid text-center text-md-left bg-light" >
+        
+            <div class="row">
+                <div class="col-lg-5 mt-md-0 mt-3">
+                    <div class="col-12 d-flex justify-content-center align-items-center mt-4 mb-2">
+                    <a href="#" class="text-secondary" style="text-decoration: none;">Mobile version</a>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <a href="#" class="text-secondary" style="text-decoration: none;">Apps:&nbsp;&nbsp;</a>
+                        <a href="#" class="text-secondary d-flex align-items-center" style="text-decoration: none;"><i class="fab fa-android fa-2x" style="text-align: center;"></i>&nbsp;&nbsp;&nbsp;</a>
+                        <a href="#" class="text-secondary d-flex align-items-center" style="text-decoration: none;"><i class="fab fa-app-store fa-2x" style="text-align: center;"></i></a>
+                    </div>
+                </div>
+
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+        
+                <div class="col-lg-3 col-md-6 mb-md-0 mb-3 ">
+                    <ul class="list-unstyled my-2">
+                    <li>
+                        <a href="#" class="text-secondary d-flex align-items-center" style="text-decoration: none;"><i class="fab fa-facebook-square fa-2x" style="text-align: center;"></i>&nbsp;&nbsp;&nbsp;connect with Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-secondary d-flex align-items-center" style="text-decoration: none;"><i class="fab fa-github-square fa-2x" style="text-align: center;"></i>&nbsp;&nbsp;&nbsp;connect with GitHub</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-secondary d-flex align-items-center" style="text-decoration: none;"><i class="fab fa-google-plus-square fa-2x" style="text-align: center;"></i>&nbsp;&nbsp;&nbsp;connect with Google</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-secondary d-flex align-items-center" style="text-decoration: none;"><i class="fab fa-twitter-square fa-2x" style="text-align: center;"></i>&nbsp;&nbsp;&nbsp;connect with Twitter</a>
+                    </li>
+                    </ul>
+                </div>
+        
+                <div class="col-lg-3 col-md-6 mb-md-0 mb-3">
+                    <ul class="list-unstyled my-2">
+                    <li>
+                        <a href="#" class="text-secondary d-flex align-items-center" style="text-decoration: none;"><i class="fab fa-pinterest-square fa-2x" style="text-align: center;"></i>&nbsp;&nbsp;&nbsp;connect with Pinterest</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-secondary d-flex align-items-center" style="text-decoration: none;"><i class="fab fa-odnoklassniki-square fa-2x" style="text-align: center;"></i>&nbsp;&nbsp;&nbsp;connect with OK</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-secondary d-flex align-items-center" style="text-decoration: none;"><i class="fab fa-tumblr-square fa-2x" style="text-align: center;"></i>&nbsp;&nbsp;&nbsp;connect with Tublr</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-secondary d-flex align-items-center" style="text-decoration: none;"><i class="fab fa-youtube-square fa-2x" style="text-align: center;"></i>&nbsp;&nbsp;&nbsp;connect with YouTube</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        
+            </div>
+        
+            <div class="footer-copyright text-center py-3 bg-light d-flex flex-row justify-content-around" style="font-size: 0.7em;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <span>
+                                © 2018 Copyright:
+                                <a href="#" class="text-muted" style="text-decoration: none;">AMG LAB</a>
+                            </span>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <span>
+                                Contacts: 
+                                <span class="text-muted">+375XX XXX XX XX</span> 
+                            </span>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <span>
+                                Advertising:
+                                <a href="#" class="text-muted" style="text-decoration: none;">AMG-LAB.com</a>
+                            </span>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <span>
+                                Design:
+                                <a href="#" class="text-muted" style="text-decoration: none;">AMG-Design.com</a>
+                            </span>
+                        </div>
+
+                        <div class="col-lg-2">    
+                            <span>
+                                Hosting:
+                                <a href="#" class="text-muted" style="text-decoration: none;">FreeHost.com</a>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        
+        </footer>
+
+
+    
+
+
+
+
+
+
+
+<!-- Java script for bootstrap4 > -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+
+</body>
+</html>
